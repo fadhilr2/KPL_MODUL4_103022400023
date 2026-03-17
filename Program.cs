@@ -1,4 +1,6 @@
-﻿public class KodePaket
+﻿using System.Collections;
+
+public class KodePaket
 {
 
     string[] NamaPaket =
@@ -36,11 +38,83 @@
     }
 }
 
+class MesinKopi
+{
+    enum State { OFF, STANDBY, BREWING, MAINTENANCE };
+    
+    public static void Start()
+    {
+        State state = State.OFF;
+
+        while (true) {
+            string command = Console.ReadLine();
+            switch (state)
+            {
+                case State.OFF:
+                    if(command == "POWER_ON")
+                    {
+                        Console.WriteLine("Mesin Off berubah menjadi Standby");
+                        state = State.STANDBY;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Perubahan state tidak valid");
+                    }
+                    break;
+                case State.STANDBY:
+                    if (command == "START_BREW")
+                    {
+                        Console.WriteLine("Mesin Standby berubah menjadi Brewing");
+                        state = State.BREWING;
+                    }
+                    else if (command == "START_MAINTENANCE")
+                    {
+                        Console.WriteLine("Mesin Standby berubah menjadi Maintenance");
+                        state = State.MAINTENANCE;
+                    }
+                    else if (command == "POWER_OFF")
+                    {
+                        Console.WriteLine("Mesin Standby berubah menjadi Off");
+                        state = State.OFF;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Perubahan state tidak valid");
+                    }
+                    break;
+                case State.BREWING:
+                    if (command == "FINISH_BREW")
+                    {
+                        Console.WriteLine("Mesin Brewing berubah menjadi Standby");
+                        state = State.STANDBY;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Perubahan state tidak valid");
+                    }
+                    break;
+                case State.MAINTENANCE:
+                    if (command == "FINISH_MAINTENANCE")
+                    {
+                        Console.WriteLine("Mesin Maintenance berubah menjadi Standby");
+                        state = State.STANDBY;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Perubahan state tidak valid");
+                    }
+                    break;
+            }
+        }
+    }
+}
+
 class Program
 {
     static void Main(string[] args)
     {
         KodePaket kodePaket = new KodePaket();
         Console.WriteLine(kodePaket.getKodePaket("Basic"));
+        MesinKopi.Start();
     }
 }
