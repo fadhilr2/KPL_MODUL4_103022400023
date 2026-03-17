@@ -1,0 +1,15 @@
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\bin\Debug\net10.0\Modul4_103022400023.exe
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\bin\Debug\net10.0\Modul4_103022400023.deps.json
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\bin\Debug\net10.0\Modul4_103022400023.runtimeconfig.json
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\bin\Debug\net10.0\Modul4_103022400023.dll
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\bin\Debug\net10.0\Modul4_103022400023.pdb
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\obj\Debug\net10.0\Modul4_103022400023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\obj\Debug\net10.0\Modul4_103022400023.AssemblyInfoInputs.cache
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\obj\Debug\net10.0\Modul4_103022400023.AssemblyInfo.cs
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\obj\Debug\net10.0\Modul4_103022400023.csproj.CoreCompileInputs.cache
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\obj\Debug\net10.0\Modul4_103022400023.sourcelink.json
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\obj\Debug\net10.0\Modul4_103022400023.dll
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\obj\Debug\net10.0\refint\Modul4_103022400023.dll
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\obj\Debug\net10.0\Modul4_103022400023.pdb
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\obj\Debug\net10.0\Modul4_103022400023.genruntimeconfig.cache
+C:\Users\bob\source\repos\Modul4_103022400023\Modul4_103022400023\obj\Debug\net10.0\ref\Modul4_103022400023.dll
